@@ -15,6 +15,7 @@ body {
     font-size: 1em;
     text-align: center;
     color: black;
+    height: 100vh;
 }
 
 h1,
@@ -34,7 +35,10 @@ h4 a:hover {
 
 img {
     width: 100%;
-    padding: 15px;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+
 }
 
 ul {
@@ -48,19 +52,35 @@ li a {
     color: black;
     text-decoration: none;
     font-size: 1.5em;
-}
-
-ul li {
-    background-color: white;
+    box-shadow: 0px 0px 5px 0px black;
     margin: 15px auto;
+    background-color: white;
     width: 30%;
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px black;
 
 }
 
-ul a:hover {
+
+li a:hover {
     background-color: black;
     color: white;
     border-radius: 10px;
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    body {
+        font-size: 10px;
+    }
+
+    ul a {
+        width: 70%;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+
 }
