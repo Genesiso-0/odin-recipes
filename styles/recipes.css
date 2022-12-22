@@ -1,0 +1,57 @@
+/* Importing font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+/* resetting the document */
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(227, 178, 97);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.1em;
+
+    color: black;
+    height: 100vh;
+}
+
+
+
+h1 {
+    text-align: center;
+    margin: 15px auto;
+
+}
+
+h2,
+p {
+    text-align: left;
+    margin: 15px 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+ol {
+    padding-bottom: 20px;
+}
+
+.desc+p {
+    margin-bottom: 40px;
+}
+
+ul {
+    margin-bottom: 30px;
+}
+
+
+ol li,
+ul li {
+    margin-bottom: 10px;
+}
